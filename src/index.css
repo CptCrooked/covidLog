@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Prompt-reg";
+  src: url("./assets/fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Prompt-bold";
+  src: url("./assets/fonts/Prompt-Bold.ttf");
+}
+@font-face {
+  font-family: "Prompt-bold-italic";
+  src: url("./assets/fonts/Prompt-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Prompt-light";
+  src: url("./assets/fonts/Prompt-Light.ttf");
+}
+@font-face {
+  font-family: "Prompt-light-italic";
+  src: url("./assets/fonts/Prompt-LightItalic.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "Prompt-reg", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
